@@ -1,0 +1,33 @@
+{
+  "name": "rsi_one",
+  "version": "1.0.0",
+  "description": "Aviation Asset Management System - Complete Backend API",
+  "main": "rsi_one_backend/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node rsi_one_backend/main.js",
+    "dev": "node --watch rsi_one_backend/main.js",
+    "seed": "node database/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aviation",
+    "asset-management",
+    "flight-logs",
+    "maintenance",
+    "expenses",
+    "ocr"
+  ],
+  "author": "RSI One Team",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.86.2",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.12"
+  }
+}
